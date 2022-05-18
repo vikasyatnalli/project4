@@ -1,8 +1,7 @@
 #!bin/bash/
-set-x
+#set-x
 echo -e "Factorial of n numbers\nEnter the value of n"
-read n
-num=$n
+num=5
 product=1
 while [ $n -ge 1 ]
 do
